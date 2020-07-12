@@ -1,3 +1,48 @@
 img {
     text-align: center;
 }
+
+input {
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.searchLinks {
+    text-align: right;
+}
+
+.imageSearch {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+#inputs {
+    display: list-item;
+    vertical-align: center;
+}
+
+#form label {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: baseline;
+    padding: 5px;
+}
+
+#advancedSearch {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
