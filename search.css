@@ -36,15 +36,21 @@ input {
     text-align: right;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;  
+.center {   
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
 }
 
 .links {
     text-align: right;
+}
+
+.links a:hover {
+    background-color: rgb(120, 238, 247);
 }
 
 .searchBar {
@@ -57,4 +63,17 @@ input {
 
 input:focus, textarea {
     outline: none !important;
+}
+
+.searching button {
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 12px;
+    background-color: gainsboro;
+}
+
+.searching button:hover {
+    border-color: gray;
 }
