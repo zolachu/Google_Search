@@ -5,9 +5,10 @@
         <link rel="stylesheet" href="search.css"> 
     </head>
     <body>
-        Google Advanced Search
-        <img src="google_img.png" alt="Google Icon" width="300px">
-        <a href="search.html">Go Back to Search</a>
+        <img src="google_img.png" alt="Google Icon" width="100px">
+        <div class="links">
+            <a href="search.html">Go Back to Search</a>
+        </div>
         
         <form action="https://www.google.com/search" id="form">
             <div id="inputs">
@@ -24,8 +25,10 @@
                     <input type="text" name="as_eq">
                 </label>
             </div>
+            <div class=advanced>
+                <input type="submit" name="Advanced Search" id="advancedSearch" value="Advanced Search"/>
+            </div>
             
-            <input type="submit" name="Advanced Search" id="advancedSearch">
         </form> 
     </body>
 </html>

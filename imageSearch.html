@@ -3,18 +3,21 @@
     <head>
         <title>Image Search</title>
         <link rel="stylesheet" href="search.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
+        <div class="links">
+            <a href="search.html">Go back to Search</a>
+        </div>
+        
+        <div class="center">
+            <img src="google_img.png" alt="Google Icon" width="500px">
+            <form action="https://www.google.com/search"> 
 
-        <img src="google_img.png" alt="Google Icon" width="300px">
-        <a href="search.html">Go back to Search</a>
-
-        <form action="https://www.google.com/search">
-            <div>
-                <input class="imageSearch" type="text" name="q">
+                <input class="imageSearch" type="text" name="q" placeholder="Search Image">
                 <input type="hidden" name="tbm" value="isch">
-            </div>
-            <input type="submit" value="Google Search">
-        </form>
+            </form>
+        </div>
+        
     </body>
 </html>
