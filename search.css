@@ -54,3 +54,7 @@ input {
 .advanced {
     text-align: right;
 }
+
+input:focus, textarea {
+    outline: none !important;
+}
